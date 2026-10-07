@@ -1,0 +1,1 @@
+import mongoose,{ClientSession} from 'mongoose'; export async function withTransaction<T>(fn:(s:ClientSession)=>Promise<T>){const s=await mongoose.startSession();try{let out!:T;await s.withTransaction(async()=>{out=await fn(s)});return out}finally{await s.endSession()}}

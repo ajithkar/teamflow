@@ -1,0 +1,1 @@
+process.env.NODE_ENV='test'; process.env.MONGODB_URI='mongodb://127.0.0.1:27017/teamflow?replicaSet=rs0'; process.env.JWT_SECRET='test-secret-at-least-20-chars'; process.env.FRONTEND_ORIGIN='http://localhost:3000';

@@ -1,0 +1,1 @@
+'use client'; import {useAuth} from '@/context/AuthContext'; import {useEffect} from 'react'; export default function Home(){const {user,loading}=useAuth();useEffect(()=>{if(!loading)location.href=user?'/projects':'/login'},[loading,user]);return <main className="min-h-screen grid place-items-center">Loading TeamFlow…</main>}

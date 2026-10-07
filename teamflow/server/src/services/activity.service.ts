@@ -1,0 +1,1 @@
+import {Activity} from '../models/Activity.js'; import {ClientSession,Types} from 'mongoose'; export async function activity(s:ClientSession,data:{project:Types.ObjectId;actor:Types.ObjectId;type:string;task?:Types.ObjectId|null;taskTitle:string;previousValue?:string;newValue?:string}){await Activity.create([{...data}],{session:s})}

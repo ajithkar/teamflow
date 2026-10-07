@@ -1,0 +1,1 @@
+import mongoose from 'mongoose'; import {env} from './config/env.js'; import {createApp} from './app.js'; await mongoose.connect(env.MONGODB_URI); createApp().listen(env.PORT,()=>console.log(`TeamFlow API on ${env.PORT}`));

@@ -1,0 +1,1 @@
+import {defineConfig} from '@playwright/test'; export default defineConfig({testDir:'./e2e',use:{baseURL:'http://localhost:3000'},webServer:[{command:'cd ../server && npm run dev',url:'http://localhost:4000/api/health',reuseExistingServer:true,timeout:120000},{command:'npm run dev',url:'http://localhost:3000',reuseExistingServer:true,timeout:120000}],workers:1});

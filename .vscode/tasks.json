@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "check tools",
+			"type": "shell",
+			"command": "Set-Location 'c:\\Users\\arunmozhi\\Downloads\\teamflow'; node -v; npm -v; docker --version",
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

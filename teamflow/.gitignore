@@ -1,0 +1,8 @@
+node_modules
+.env*
+!.env.example
+dist
+.next
+playwright-report
+test-results
+logs

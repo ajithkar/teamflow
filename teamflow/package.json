@@ -1,0 +1,1 @@
+{"name":"teamflow","private":true,"scripts":{"build":"npm --prefix server run build && npm --prefix client run build","test":"npm --prefix server test && npm --prefix client run test:e2e"}}

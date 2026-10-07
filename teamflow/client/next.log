@@ -1,0 +1,30 @@
+   ▲ Next.js 15.5.27
+   - Local:        http://localhost:3000
+   - Network:      http://10.213.61.217:3000
+
+ ✓ Starting...
+ ✓ Ready in 251s
+ ○ Compiling / ...
+ ✓ Compiled / in 19.9s (546 modules)
+ GET / 200 in 25193ms
+ ○ Compiling /login ...
+ ✓ Compiled /login in 10.1s (610 modules)
+ GET /login 200 in 15308ms
+ GET / 200 in 279ms
+ GET /login 200 in 453ms
+ ○ Compiling /projects ...
+ ✓ Compiled /projects in 31.3s (626 modules)
+ GET /projects 200 in 36435ms
+ ✓ Compiled in 5.5s (244 modules)
+ ○ Compiling /projects/[projectId] ...
+ ✓ Compiled /projects/[projectId] in 5.6s (621 modules)
+ GET /projects/6ac4ffc4bb6829b8d867502f 200 in 43096ms
+ GET /projects/6ac4ffc4bb6829b8d867502f 200 in 20483ms
+ GET /projects/6ac4ffc4bb6829b8d867502f 200 in 18906ms
+ GET /projects/6ac4ffc4bb6829b8d867502f 200 in 19233ms
+ GET /projects/6ac4ffc4bb6829b8d867502f 200 in 13690ms
+ GET /projects/6ac4ffc4bb6829b8d867502f 200 in 1375ms
+ GET /projects/6ac4ffc4bb6829b8d867502f 200 in 178ms
+ GET /projects 200 in 225ms
+ GET /projects 200 in 368360ms
+ GET /login 200 in 19012ms
